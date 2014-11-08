@@ -2,12 +2,12 @@
 This plugin is for running javascript unit tests in sublime text 2, ruby(on rails) and by using [teaspoon](https://github.com/modeset/teaspoon) test runner.
 
 ## Installation
-
+Search `sublime-text-2-teaspoon` in sublime text package controll.
 
 ## Usage
- - Run single ruby test: `Command-Shift-R`
- - Run all ruby tests from current file: `Command-Shift-T`
- - Run last ruby test(s): `Command-Shift-E`
+ - Run single teaspoon test: `Command-Shift-R`
+ - Run all teaspoon tests from current file: `Command-Shift-T`
+ - Run last teaspoon test(s): `Command-Shift-E`
  - Show test panel: `Command-Shift-X` (when test panel visible hit `esc` to hide it)
 Keys:
  'Command' (OSX)
