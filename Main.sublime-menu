@@ -1,0 +1,98 @@
+[
+  {
+    "id":"tools",
+    "children":[
+      {
+        "caption":"Teaspoon",
+        "children":[
+          {
+            "caption":"Run single test",
+            "command":"run_single_teaspoon_test"
+          },
+          {
+            "caption":"Run all tests",
+            "command":"run_all_teaspoon_test"
+          },
+          {
+            "caption":"Run last tests",
+            "command":"run_last_teaspoon_test"
+          },
+          {
+            "caption":"-"
+          },
+          {
+            "caption":"Show test panel",
+            "command":"show_test_panel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caption":"Preferences",
+    "mnemonic":"n",
+    "id":"preferences",
+    "children":[
+      {
+        "caption":"Package Settings",
+        "mnemonic":"P",
+        "id":"package-settings",
+        "children":[
+          {
+            "caption":"Teaspoon",
+            "children":[
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/Teaspoon/Teaspoon.sublime-settings"
+                },
+                "caption":"Settings – Default"
+              },
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/User/Teaspoon.sublime-settings"
+                },
+                "caption":"Settings – User"
+              },
+              {
+                "caption":"-"
+              },
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/Teaspoon/Default.sublime-keymap"
+                },
+                "caption":"Key Bindings – Default"
+              },
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/Teaspoon/Default (Windows).sublime-keymap",
+                  "platform":"Windows"
+                },
+                "caption":"Key Bindings – User"
+              },
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/Teaspoon/Default (OSX).sublime-keymap",
+                  "platform":"OSX"
+                },
+                "caption":"Key Bindings – User"
+              },
+              {
+                "command":"open_file",
+                "args":{
+                  "file":"${packages}/Teaspoon/Default (Linux).sublime-keymap",
+                  "platform":"Linux"
+                },
+                "caption":"Key Bindings – User"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

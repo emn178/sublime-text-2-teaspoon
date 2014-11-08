@@ -1,0 +1,25 @@
+{
+  "run_teaspoon_unit_command": "teaspoon {relative_path} --no-color",
+  "run_single_teaspoon_unit_command": "teaspoon {relative_path} --filter '{test_name}' --no-color",
+
+  "test_folder": "spec",
+
+  "check_for_rbenv": false,
+  "check_for_rvm": true,
+  "check_for_bundler": false,
+  "check_for_spring": true,
+
+  "ruby_use_scratch" : false,
+  "save_on_run": false,
+  "ignored_directories": [".git", "vendor", "tmp"],
+
+  "hide_panel": false,
+
+  "before_callback": "",
+  "after_callback": "",
+
+  "theme": "Packages/Teaspoon/TestConsole.hidden-tmTheme",
+  "syntax": "Packages/Teaspoon/TestConsole.tmLanguage",
+
+  "terminal_encoding": "utf-8"
+}

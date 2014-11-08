@@ -1,0 +1,19 @@
+[
+  { "keys": ["super+shift+r"], "command": "run_single_teaspoon_test",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.js"
+               } ]
+  }, // single test
+
+
+  { "keys": ["super+shift+t"], "command": "run_all_teaspoon_test",
+      "context": [ { "key": "selector", "operator": "equal",
+		     "operand": "source.js"
+                } ]
+  }, // test file
+
+
+  { "keys": ["super+shift+e"], "command": "run_last_teaspoon_test" }, // test last test file
+
+  { "keys": ["super+shift+x"], "command": "show_test_panel" } // show test panel
+]

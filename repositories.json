@@ -1,0 +1,9 @@
+{
+  "schema_version": "0.1.0",
+  "repositories": [
+    "https://github.com/emn178/sublime-text-2-teaspoon"
+  ],
+  "package_name_map": {
+    "sublime-text-2-teaspoon": "Teaspoon"
+  }
+}

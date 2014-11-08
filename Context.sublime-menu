@@ -1,0 +1,14 @@
+[
+  { "caption": "-" },
+  {
+    "caption": "Teaspoon",
+    "children":
+      [
+        { "caption": "Run single test", "command": "run_single_teaspoon_test" },
+        { "caption": "Run all tests", "command": "run_all_teaspoon_test" },
+        { "caption": "Run last test(s)", "command": "run_last_teaspoon_test" },
+        { "caption": "-" },
+        { "caption": "Show test panel", "command": "show_test_panel" }
+      ]
+  }
+]

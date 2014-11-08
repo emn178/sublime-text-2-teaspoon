@@ -1,0 +1,6 @@
+[
+  { "caption": "Teaspoon: Run Single Test", "command": "run_single_teaspoon_test" },
+  { "caption": "Teaspoon: Run All Tests", "command": "run_all_teaspoon_test" },
+  { "caption": "Teaspoon: Run Last Test", "command": "run_last_teaspoon_test" },
+  { "caption": "Teaspoon: Show Test Panel", "command": "show_test_panel" }
+]
