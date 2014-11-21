@@ -25,5 +25,5 @@ This plugin is modfied from [sublime-text-2-ruby-tests](https://github.com/malti
 The project is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Contact
-The project's website is located at https://github.com/emn178/jquery-lazyload-any  
+The project's website is located at https://github.com/emn178/sublime-text-2-teaspoon  
 Author: emn178@gmail.com
